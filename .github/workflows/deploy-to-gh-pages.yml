@@ -33,7 +33,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     environment:
-      name: production
+      name: live
       url: https://niceppn.github.io/my-react-site/
     permissions:
       contents: write
